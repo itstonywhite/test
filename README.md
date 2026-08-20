@@ -1,8 +1,5 @@
-M-1 Rocket Engine template design
+M-1 Rocket Engine Template Design
 
-Built with:
-    1. HTML
-    2. CSS
-    3. Tailwind CSS
-    4. Flowbite
-    4. NPM
+Built with: HTML, CSS, Tailwind, Flowbite, NPM
+
+To run the project, run: npm i

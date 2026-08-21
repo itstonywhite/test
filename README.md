@@ -1,10 +1,10 @@
 # M-1 Rocket Engine Template Design
 
 **Dark Mode:**
-![Project dark template image](./Project.png)
+![Project dark mode template image](./Project.png)
 
 **Light Mode:**
-![Project light template image](./Project-light.png)
+![Project light mode template image](./Project-light.png)
 
 Built with:
 - HTML

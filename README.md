@@ -5,7 +5,7 @@
 
 **Light Mode:**
 ![Project light template image](./Project-light.png)
-
+   
 Built with:
 - HTML
 - CSS

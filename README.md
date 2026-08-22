@@ -7,6 +7,7 @@
 ![Project light mode template image](./Project-light.png)
 
 Built with:
+
 - HTML
 - CSS
 - Tailwind
@@ -17,4 +18,4 @@ Built with:
 
 ###### This Repo is just for testing!
 
-*-[Tony White ✍️](https://github.com/itstonywhite)*
+_-[Tony White ✍️](https://github.com/itstonywhite)_

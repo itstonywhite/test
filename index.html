@@ -1,18 +1,40 @@
 <!doctype html>
-<html lang="en" class="dark">
+<html lang="en" class="">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/app.css" />
+    <link rel="stylesheet" href="./public/styles/app.css" />
     <title>M1 Rocket Engine</title>
   </head>
-  <body class="flex flex-col h-screen w-screen justify-center dark:bg-gray-900">
+  <body
+    class="dark:bg-gray-900 flex flex-col h-screen w-screen justify-center overflow-hidden"
+  >
+    <svg class="hidden">
+      <symbol id="moon" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="black"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z"
+        />
+      </symbol>
+    </svg>
+    <button
+      id="toggleTheme"
+      class="fixed left-4 top-4 shadow-md cursor-pointer w-15 h-15 rounded-2xl flex items-center justify-center"
+    >
+      <svg class="size-6 text-white">
+        <use href="#moon"></use>
+      </svg>
+    </button>
     <div class="container mx-auto w-full flex justify-center">
       <div
         class="main-box dark:bg-gray-800 dark:shadow-xl shadow-md border border-gray-300 dark:border-gray-600 max-w-sm rounded-xl overflow-hidden flex flex-col space-y-4"
       >
         <img
-          src="./images/m1.png"
+          src="./public/images/m1.png"
           class="box-img w-full object-cover select-none"
           alt="M-1 Engine"
         />
@@ -49,6 +71,6 @@
         </button>
       </div>
     </div>
-    <script src="./js/app.js"></script>
+    <script src="./public/js/app.js"></script>
   </body>
 </html>

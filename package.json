@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./public/styles/app.css --watch"
+  },
   "dependencies": {
     "@tailwindcss/cli": "^4.3.3",
     "flowbite": "^4.0.2",

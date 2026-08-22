@@ -1,3 +1,2 @@
-window.addEventListener("load", () => {
-  console.log("JS is powerful :)");
-});
+const $ = document;
+const toggleThemeBtn = $.querySelector("#toggleTheme");
